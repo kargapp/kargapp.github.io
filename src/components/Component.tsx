@@ -5,7 +5,7 @@ interface ComponentProps {}
 const Component: React.FC<ComponentProps> = ({}) => {
   return (
     <>
-      <div className="text-blue-500">I'm a React Component!</div>
+      <div>I'm a React Component!</div>
     </>
   );
 };
